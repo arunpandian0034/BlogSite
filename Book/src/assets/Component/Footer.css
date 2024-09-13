@@ -1,0 +1,60 @@
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-box {
+    margin-bottom: 20px;
+}
+
+.footer-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.footer-subheading {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.footer-address,
+.footer-hours {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.footer-icons {
+    margin-top: 20px;
+}
+
+.footer-icon {
+    font-size: 2rem;
+    margin: 0 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footer-icon:hover {
+    color: #007bff; /* Color change on hover */
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}

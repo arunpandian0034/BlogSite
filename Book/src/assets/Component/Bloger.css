@@ -1,0 +1,60 @@
+
+.Bloger-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5px; 
+}
+
+
+.Bloger-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.Bloger-card img {
+    height: 200px;
+    object-fit: cover; 
+}
+
+
+.Bloger-card .card-body {
+    text-align: center;
+    background-color: rgb(246, 246, 246);
+}
+
+
+.Bloger-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+
+@media (max-width: 768px) {
+    .food-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-card {
+        width: 90%;
+    }
+}
+
+
+
+
+.btn-add {
+    background-color: #28a745; 
+}
+
+.btn-remove {
+    background-color: #dc3545; 
+}
+
+

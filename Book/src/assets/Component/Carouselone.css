@@ -1,0 +1,20 @@
+/* Carousel2.css */
+
+.containerthree {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.containerthree img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    transition: transform 0.5s ease-in-out; /* Optional: adds a smooth zoom effect on hover */
+}
+
+.container:hover img {
+    transform: scale(1.05); /* Optional: zooms the image slightly on hover */
+}
